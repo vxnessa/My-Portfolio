@@ -1,0 +1,70 @@
+
+  :root {
+    --primary-color:#0D98BA;
+    --secondary-color:#ACE5EE; 
+    --teritiary-color: white;
+    }
+
+    body {
+        /* more on this crazy alphanumerical value in a minute! */
+        background-color: var(--secondary-color);
+        font-family: Helvetica, Arial, sans-serif;
+      }
+
+
+  header {
+    padding: 20px 35px;
+    background-color: var(--primary-color);
+  }
+
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+    margin: 0;
+    display: inline;
+  }
+
+  header a {
+    text-decoration: none;
+    color: white;
+  }
+
+  header nav {
+    float: right;
+    margin: 7px 0;
+  }
+
+  header nav ul li {
+    display: inline;
+  }
+
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  } 
+
+  li a:hover {
+    background-color: var(--secondary-color);
+     padding: 14px 16px;
+    text-decoration: none;
+  } 
+
+  section h3 {
+    height: 400px;
+    background-image: url("../images/flower\ background.jpg");
+  }
+
+
+  footer {
+    background: var(--primary-color);
+    width: 100%;
+    padding: 40px 35px;
+  }
+ 
