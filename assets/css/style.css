@@ -1,14 +1,19 @@
 
   :root {
     --primary-color:#0D98BA;
-    --secondary-color:#ACE5EE; 
+    --secondary-color:#ACC6C2; 
     --teritiary-color: white;
     }
+    * {
+        margin: 0;
+        padding: 0;
+      } 
 
-    body {
-        /* more on this crazy alphanumerical value in a minute! */
-        background-color: var(--secondary-color);
-        font-family: Helvetica, Arial, sans-serif;
+
+body {
+ /* more on this crazy alphanumerical value in a minute! */
+    background-color: var(--primary-color);
+    font-family: Helvetica, Arial, sans-serif;
       }
 
 
@@ -45,10 +50,38 @@
     font-size: 22px;
   }
 
-  * {
-    margin: 0;
-    padding: 0;
-  } 
+.intro h2 {
+    color: white;
+    font-size: 200%;
+    background-color: var(--se);
+    text-align: center;
+    margin-bottom: 1em;
+  }
+
+
+.intro {
+    padding: 4em;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-gap: 5em;
+    margin-right: 10em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.greece {
+    width: 400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2em;
+}
+
+
 
   li a:hover {
     background-color: var(--secondary-color);
@@ -56,15 +89,60 @@
     text-decoration: none;
   } 
 
-  section h3 {
+  .hero {  
     height: 400px;
     background-image: url("../images/flower\ background.jpg");
+
   }
 
 
+
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+
+
   footer {
-    background: var(--primary-color);
+    background: var(--secondary-color);
     width: 100%;
     padding: 40px 35px;
   }
  
+
