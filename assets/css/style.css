@@ -1,5 +1,18 @@
 
-  :root {
+ body {
+  /* more on this crazy alphanumerical value in a minute! */
+     background-color: var(--primary-color);
+     font-family: Helvetica, Arial, sans-serif;
+     color: white;
+          }
+
+
+          * {
+            margin: 0;
+            padding: 0;
+          } 
+ 
+ :root {
     --primary-color:#0D98BA;
     --secondary-color:#ACC6C2; 
     --teritiary-color: white;
@@ -8,13 +21,6 @@
         margin: 0;
         padding: 0;
       } 
-
-
-body {
- /* more on this crazy alphanumerical value in a minute! */
-    background-color: var(--primary-color);
-    font-family: Helvetica, Arial, sans-serif;
-      }
 
 
   header {
@@ -74,12 +80,48 @@ body {
 
 .greece {
     width: 400px;
-
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 2em;
 }
+
+.my-portfolio h2 {
+  text-align: center;
+}
+
+.middle {
+  color: white;
+  text-align: center;
+  text-emphasis: none;
+  display: flex;
+}
+.my-portfolio {
+  display: inline-flex;
+}
+
+.run-buddy-website {
+  margin-top: 3em;
+  width: 300px;
+
+}
+
+.run-buddy-website p {
+  color: white;
+}
+
+.task-website {
+  width: 300px;
+}
+
+.horiseon-website {
+  width: 300px;
+}
+
+
+
+
+
 
 
 
@@ -94,6 +136,14 @@ body {
     background-image: url("../images/flower\ background.jpg");
 
   }
+
+
+
+
+
+
+
+
 
 
 
