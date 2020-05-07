@@ -8,9 +8,9 @@
 
 
 * {
-  margin: 0;
-  padding: 0;
-  } 
+margin: 0;
+padding: 0;
+} 
  
 :root {
 --primary-color:#0D98BA;
@@ -53,36 +53,35 @@ font-weight: lighter;
 font-size: 22px;
 }
 
-.intro h2 {
+.intra h2 {
+text-align: center;
 color: white;
 font-size: 200%;
+margin-top: 2em;
+margin-bottom: 2em;
 text-align: center;
-margin-bottom: 3em;
-font-size: 35px;
 }
 
-.intro p {
+.intra p {
   color: white;
-  text-align: justify;
+  text-align: left;
+  font-size: 22px;
+  margin-left: 25em;
+  margin-bottom: 2em;
 }
 
-.intro {
-    padding: 4em;
-    grid-gap: 5em;
-    margin-right: 10em;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .greece {
-    width: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 2em;
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  margin-bottom: 9em;
+  margin-left: 8em;
+  
+
 }
+
+
 
 .mid-title {
   text-align: center;
@@ -90,6 +89,7 @@ font-size: 35px;
 }
 .mid-title h2 {
   font-size: 35px;
+ margin-bottom: 3em;
 }
 
 
@@ -105,16 +105,12 @@ font-size: 35px;
 
 .work-portfolio {
   display: inline-flex;
+  display: inline;
+  text-align: center;
 }
 
 .run-buddy-website {
-  margin-top: 3em;
   width: 300px;
-
-}
-
-.run-buddy-website p {
-  color: white;
 }
 
 .task-website {
@@ -122,16 +118,15 @@ font-size: 35px;
 }
 
 .horiseon-website {
-  width: 300px;
+width: 300px;
 }
 
 .card {
-  /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  margin-top: 4em;
-  transition: 0.3s;
-  display: inline flex;
-  background-color: var(--primary-color);
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+width: 400px;
+transition: 0.3s;
+display: inline flex;
+background-color: var(--primary-color);
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -146,11 +141,10 @@ padding: 14px 16px;
 text-decoration: none;
 } 
 
-  .hero {  
-    height: 400px;
-    background-image: url("../images/flower\ background.jpg");
-
-  }
+.hero {  
+height: 400px;
+background-image: url("../images/flower\ background.jpg");
+}
 
 /* Style all font awesome icons */
 .fa {
@@ -162,19 +156,19 @@ text-decoration: none;
 }
   
   /* Add a hover effect if you want */
-  .fa:hover {
+.fa:hover {
   opacity: 0.7;
-  }
+}
   
   /* Set a specific color for each brand */
   
-  /* Facebook */
+/* Facebook */
 .fa-facebook {
 background: #3B5998;
 color: white;
 }
   
-  /* Twitter */
+/* Twitter */
 .fa-twitter {
 background: #55ACEE;
 color: white;
@@ -198,18 +192,18 @@ margin-top: 2em;
 font-size: 35px;
 }
 
-  .outro p{
+.outro p{
   text-align: center;
   color: white;
 }
 
-footer {
+.footer {
 margin-top: 2em;
 background: var(--secondary-color);
 width: 100%;
 padding: 20px 35px;
 }
  
-footer h2 {
+.footer h2 {
   text-align: center;
 }
