@@ -1,7 +1,7 @@
-
  body {
+
   /* more on this crazy alphanumerical value in a minute! */
-     background-color: var(--primary-color);
+
      font-family: Helvetica, Arial, sans-serif;
      color: white;
 }
@@ -12,16 +12,11 @@ margin: 0;
 padding: 0;
 } 
  
-:root {
---primary-color:#0D98BA;
---secondary-color:#ACC6C2; 
---teritiary-color: white;
-}
 
 
 header {
 padding: 20px 35px;
-background-color: var(--primary-color);
+background-color: rgb(116, 180, 182);
 }
 
 
@@ -53,157 +48,141 @@ font-weight: lighter;
 font-size: 22px;
 }
 
-.intra h2 {
-text-align: center;
-color: white;
-font-size: 200%;
-margin-top: 2em;
-margin-bottom: 2em;
-text-align: center;
+.intro {
+padding: 50px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color: rgb(22, 170, 175);
+color: #ffffff;
 }
 
-.intra p {
-  color: white;
-  text-align: left;
-  font-size: 22px;
-  margin-left: 25em;
-  margin-bottom: 2em;
-}
+.intro h2 {
 
-
-.greece {
-  width: 400px;
-  height: 300px;
-  text-align: center;
-  margin-bottom: 9em;
-  margin-left: 8em;
+  font-size: 45px;
   
 
 }
 
+.intro img {
+  max-height: 300px;
 
+}
+
+.intro p {
+  font-size: 18px;
+}
+
+
+
+.float-left {
+  float: left;
+  margin-right: 160px;
+  margin-left: 65px;
+}
+
+
+
+.flex-container {
+  display: inline-flex;
+  margin-top: 20px;
+  margin-left: 300px;
+}
 
 .mid-title {
-  text-align: center;
-  font-size: 35px;
+ padding: 30px;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgba(59, 168, 172, 0.795);
+  color: #ffffff;
+ 
 }
-.mid-title h2 {
-  font-size: 35px;
- margin-bottom: 3em;
-}
 
 
-
-.middle {
-  color: white;
-  text-align: center;
-  text-emphasis: none;
-  display: flex;
+.column {
+  padding: 0 5px;
+  
 }
 
 
 
-.work-portfolio {
-  display: inline-flex;
-  display: inline;
-  text-align: center;
-}
-
-.run-buddy-website {
-  width: 300px;
-}
-
-.task-website {
-  width: 300px;
-}
-
-.horiseon-website {
-width: 300px;
-}
-
-.card {
-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-width: 400px;
-transition: 0.3s;
-display: inline flex;
-background-color: var(--primary-color);
-}
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: rgb(169, 226, 221);
+  }
 
 
-li a:hover {
-background-color: var(--secondary-color);
-padding: 14px 16px;
-text-decoration: none;
-} 
+  
 
 .hero {  
 height: 400px;
 background-image: url("../images/flower\ background.jpg");
 }
 
-/* Style all font awesome icons */
-.fa {
-padding: 20px;
+
+.contact-me {
 font-size: 30px;
-width: 50px;
 text-align: center;
-text-decoration: none;
-}
-  
-  /* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.7;
-}
-  
-  /* Set a specific color for each brand */
-  
-/* Facebook */
-.fa-facebook {
-background: #3B5998;
-color: white;
-}
-  
-/* Twitter */
-.fa-twitter {
-background: #55ACEE;
-color: white;
+background-color: rgb(22, 170, 175);
+
+
 }
 
 
-.fa-linkedin {
-background: #007bb5;
-color: white;
-}
 
-.fa-instagram {
-background: #125688;
-color: white;
-}
-  
-.outro h2 {
-text-align: center;
-margin-bottom: 2em;
-margin-top: 2em;
-font-size: 35px;
-}
 
-.outro p{
-  text-align: center;
-  color: white;
-}
 
 .footer {
-margin-top: 2em;
-background: var(--secondary-color);
+
+background-color: rgb(116, 180, 182);
 width: 100%;
-padding: 20px 35px;
+padding: 10px 15px;
 }
- 
-.footer h2 {
+
+.icons { 
   text-align: center;
+  margin-top: 2em;
 }
+
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  }
+    
+    /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+    
+    /* Set a specific color for each brand */
+    
+  /* Facebook */
+  .fa-facebook {
+  background: #3B5998;
+  color: white;
+  }
+
+  
+  
+  .fa-linkedin {
+  background: #007bb5;
+  color: white;
+  }
+  
+  .fa-instagram {
+  background: #125688;
+  color: white;
+
+  }
+    
+
+ 
+
+
